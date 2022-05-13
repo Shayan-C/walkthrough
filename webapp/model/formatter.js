@@ -13,8 +13,7 @@ sap.ui.define([], function () {
 					return oResourceBundle.getText("invoiceStatusB");
 				case "C":
 					return oResourceBundle.getText("invoiceStatusC");
-				default:
-					return sStatus;
+				default: return sStatus;
 			}
 		}
 	};

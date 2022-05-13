@@ -9,6 +9,7 @@ sap.ui.define([
 		metadata : {
 			interfaces: ["sap.ui.core.IAsyncContentCreation"],
 			manifest: "json"
+			
 		},
 
 		init : function () {
